@@ -4,7 +4,7 @@ import './index.css';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import rp from 'redux-promise';
-import { BrowserRouter as BR, Route } from 'react-router-dom';
+import { BrowserRouter as BR, Route, Switch } from 'react-router-dom';
 import rootReducer from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -18,8 +18,10 @@ ReactDOM.render(
 		<div className="container">
 			<BR>
 				<div>
-						<Route exact path="/" component={PostsIndex} />
+					<Switch>
 						<Route path="/posts/new" component={PostsNew} />
+						<Route path="/" component={PostsIndex} />						
+					</Switch>
 				</div>
 			</BR>
 		</div>
