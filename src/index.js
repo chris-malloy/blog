@@ -9,7 +9,8 @@ import rootReducer from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 
 import PostsIndex from './containers/PostsIndex';
-import PostsNew from './components/PostNew';
+import PostsNew from './containers/PostNew';
+import PostsShow from './containers/PostsShow';
 
 const store = applyMiddleware(rp)(createStore)(rootReducer);
 
@@ -20,7 +21,8 @@ ReactDOM.render(
 				<div>
 					<Switch>
 						<Route path="/posts/new" component={PostsNew} />
-						<Route path="/" component={PostsIndex} />						
+						<Route path="/posts/:id" component={PostsShow} /> 
+						<Route path="/" component={PostsIndex} />
 					</Switch>
 				</div>
 			</BR>
