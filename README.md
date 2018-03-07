@@ -4,7 +4,7 @@ A simple blog app built with React/Redux that leverages the herokuapp blog API.
 
 ***
 
-[Installation](https://github.com/chris-malloy/video-player#installation) | [Testing](https://github.com/chris-malloy/video-player#testing) | [Challenges and Solutions](https://github.com/chris-malloy/video-player#challenges-and-solutions) | [Code Snippets](https://github.com/chris-malloy/video-player#code-snippets) | [Acknowledgements](https://github.com/chris-malloy/video-player#acknowledgements)
+[Installation](https://github.com/chris-malloy/blog#installation) | [Testing](https://github.com/chris-malloy/blog#testing) | [Challenges and Solutions](https://github.com/chris-malloy/blog#challenges-and-solutions) | [Code Snippets](https://github.com/chris-malloy/blog#code-snippets) | [Acknowledgements](https://github.com/chris-malloy/blog#acknowledgements)
 
 ***
 
